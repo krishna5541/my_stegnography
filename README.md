@@ -1,2 +1,2 @@
-# myFirst
-This is my first Project.
+# Stagnography
+This project is for embadding text messages in image file.
