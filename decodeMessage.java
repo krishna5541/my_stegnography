@@ -8,8 +8,8 @@ public class MyImage{
 	Scanner cmd = new Scanner(System.in);
     BufferedImage image = null;
     File f = null;
-    //System.out.println("Give the file path");
-    String path = "C:\\Users\\kprab\\Desktop\\chakai.jpg";
+    System.out.println("Give the container image file path");
+    String path = cmd.nextLine();
     //read image file
     
     try{
