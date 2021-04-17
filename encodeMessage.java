@@ -12,9 +12,9 @@ public class StagMessage {
 
 	public static void main(String[] args) throws IOException {
 		Scanner cmd = new Scanner(System.in);
-		//System.out.print("File location of stag image: ");
-		//String path = cmd.nextLine();
-		File f = new File("C:\\Users\\kprab\\Desktop\\steg.bmp");
+		System.out.print("File location of host image: ");
+		String path = cmd.nextLine();
+		File f = new File(path);
 		BufferedImage image = ImageIO.read(f);
 		String message = "00000000";
 		Stack<Integer> st = new Stack<>();
